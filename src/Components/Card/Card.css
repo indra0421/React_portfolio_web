@@ -1,0 +1,37 @@
+.card{
+   
+    width: 12rem;
+    height: 13rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+   
+    text-align: center;
+    background: rgba(227, 224, 224, 0.26);
+    border: 7px solid orange;
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+    border-radius: 20px;
+}
+.card span:nth-child(3){
+    color: rgb(87, 87, 87);
+    font-size: 16px;
+}
+.card > img{
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+.c_button{
+    background: #ffffff;
+    box-shadow: 0px 19px 60px rgba(0,0,0,0.08);
+    border-radius: 7px;
+    border: none;
+    color: black;
+    padding: 10px;
+    /* margin-top: -0.5rem; */
+    font-size: 16px;
+    color: #5290FD;
+    cursor: pointer;
+    font-weight: bold;
+}
