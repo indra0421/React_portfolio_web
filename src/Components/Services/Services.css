@@ -1,6 +1,4 @@
-.s_button{
 
-}
 
 .services{
     padding: 0 3rem 0 3rem;
@@ -29,7 +27,7 @@
 }
 .awesome>:nth-child(3){
     color:grey;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 1rem;
 }
 .s_button{
@@ -43,4 +41,14 @@
 }
 .cards >*{
     position: absolute;
+}
+
+/* blur  */
+.s_blur1{
+    top: 61rem;
+    left: -18rem;
+}
+.s_blur2{
+    left: 14rem;
+    top: 8rem;
 }

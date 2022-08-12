@@ -18,7 +18,7 @@ export const Services = ()=> {
             <button className="button s_button">Donwload CV</button>
             </a>
             
-            {/* <div className="blur s_blur" style={{background: "ABF1FF94"}}></div>  */}
+            <div className="blur s_blur1" style={{background: "rgb(115, 215, 235)"}}></div> 
         </div>
         {/* right side */}
         <div className="cards">
@@ -45,7 +45,7 @@ export const Services = ()=> {
                 detail = {'Lorem ipsum dolor sit amet consectetur adipisicing'}
               />
             </div>
-            
+            <div className="blur s_blur2" style={{background: "rgb(238 210 255)"}}></div> 
 
         </div>
     </div>
