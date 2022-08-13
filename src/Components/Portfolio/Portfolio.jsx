@@ -35,9 +35,6 @@ export const Portfolio = () => {
            <SwiperSlide className='swiper-slide'>
              <img src={ecommerce} alt="" />
            </SwiperSlide>  
-             
-
-
         </Swiper>
     </div>
   )

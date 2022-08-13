@@ -18,7 +18,7 @@ export const Services = ()=> {
             <button className="button s_button">Donwload CV</button>
             </a>
             
-            <div className="blur s_blur1" style={{background: "rgb(115, 215, 235)"}}></div> 
+            <div className="blur s_blur1" style={{background: "skyblue"}}></div> 
         </div>
         {/* right side */}
         <div className="cards">
