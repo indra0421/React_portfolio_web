@@ -35,3 +35,6 @@
     cursor: pointer;
     font-weight: bold;
 }
+.c_button:hover{
+    transform: scale(1.02);
+}

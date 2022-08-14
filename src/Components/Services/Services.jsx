@@ -6,12 +6,24 @@ import {Card} from '../Card/Card'
 import './Services.css'
 import Resume from './Resume.pdf'
 
+import {themeContext} from '../../Context'
+import { useContext } from 'react'
+
+import {motion} from 'framer-motion'
+
 export const Services = ()=> {
+  
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
+
+    const transition = {duration:1 , type: 'spring'}
+
   return (
-    <div className="services">
+    <div className="services" id='Services'>
         {/* left side */}
         <div className="awesome">
-            <span>My Awesome</span>
+            <span  style={{color : darkMode? 'white' : 'black'}}>My Awesome</span>
             <span>Services</span>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo quos modi error neque porro!</span>
             <a href={Resume} download>
@@ -22,23 +34,41 @@ export const Services = ()=> {
         </div>
         {/* right side */}
         <div className="cards">
-            <div style={{left:'14rem'}}>
+
+            <motion.div 
+              initial = {{left:'25rem'}}
+              whileInView = {{left:'14rem'}}
+              transition = {transition}
+
+             style={{left:'14rem'}}>
               <Card
                 emoji = {HeartEmoji}
                 heading = {'Design'}
                 detail = {"Figma,sketh,phtoshop,adobe xd"}
               />
-            </div>
+            </motion.div>
             {/* second card  */}
-            <div style={{top:'12rem',left:'-4rem'}}>
+            <motion.div 
+              
+              initial = {{left:'-10rem'}}
+              whileInView = {{left:'-4rem' , top:'12rem'}}
+              transition = {transition}
+            
+             style={{top:'12rem',left:'-4rem'}}>
               <Card
                 emoji = {Glasses}
                 heading = {'Developement'}
                 detail = {"HtTML,CSS,JAVASCRIPT,REACT"}
               />
-            </div>
+            </motion.div>
             {/* third card  */}
-            <div style={{top:'19rem',left:'12rem'}}>
+            <div 
+            
+             initial={{ top: "19rem", left: "25rem" }}
+             whileInView={{ left: "12rem" }}
+            transition = {transition}
+            
+            style={{top:'19rem',left:'12rem'}}>
               <Card
                 emoji = {Humble}
                 heading = {'UI/UX'}

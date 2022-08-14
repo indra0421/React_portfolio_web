@@ -17,6 +17,7 @@
     color: var(--black);    
 }
 button{
+  cursor: pointer;
   border-radius: 34px;
   border: none;
   color: white;

@@ -12,13 +12,23 @@ import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import {FloatingDiv} from '../FloatingDiv/FloatingDiv'
+import {themeContext} from '../../Context'
+import { useContext } from 'react'
+
+import {motion} from 'framer-motion'
 
 export const Intro = () => {
+   // for animation
+    const transition = {duration:2 , type: 'spring'}
+   //theme change
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
   return (
     <div className='intro'>
         <div className="i_left">
             <div className="i_name">
-                <span>Hi! I Am</span>
+                <span style={{color : darkMode? 'white' : 'black'}}>Hi! I Am</span>
                 <span>Indranil Naskar</span>
                 <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo alias esse neque iusto veritatis iste corporis beatae vero magnam vitae. Non praesentium eius optio eveniet!</span>
             </div>
@@ -41,13 +51,32 @@ export const Intro = () => {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <img src={glassesimoji} alt="" />
-            <div style={{top:'6%', left :'62%'}}>
-                <FloatingDiv image ={Crown} tex1 ="Web" tex2 ="Developer"/>
-            </div>
-            <div style={{top:'20rem' , left:'0rem'}}>
+            <motion.img 
+              
+              initial = {{left : '-36%'}}
+              whileInView = {{left: '-24%'}}
+              transition = {transition}
+            
+            src={glassesimoji} alt="" />
+
+            <motion.div
+
+             initial = {{top:'-4%', left: '74%'}}
+             whileInView ={{left : '68%'}}
+             transition = {transition}
+            
+             style={{top:'6%', left :'62%'}}>
+                <FloatingDiv image ={Crown} tex1 ="Web" tex2 ="Developer" />
+            </motion.div>
+            <motion.div 
+
+             initial = {{top:'20rem', left: '18rem'}}
+             whileInView ={{left : '0rem'}}
+             transition = {transition}
+            
+            style={{top:'20rem' , left:'0rem'}}>
                 <FloatingDiv image ={thumbup} tex1 ="Best Design" tex2 ="Award"/>
-            </div>
+            </motion.div>
             {/* blur divs */}
             <div className='blur' style={{background: "rgb(238 210 255)"}}></div>
             <div className='blur' style={{background: "#C1F5FF",

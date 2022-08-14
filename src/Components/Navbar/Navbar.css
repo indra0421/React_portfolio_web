@@ -33,7 +33,7 @@
     margin-right: 4rem;
     list-style: none;
 }
-.n-list >ul >li:hover{
+.nav_li:hover{
     cursor: pointer;
     color: var(--orange);
 }

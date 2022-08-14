@@ -1,6 +1,8 @@
 import React from 'react'
 import './Floating.css'
+
 export const FloatingDiv = (props) => {
+  
   return (
     <div className='floatingdiv'>
         <img src={props.image} alt="" />
