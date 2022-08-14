@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 export const Contact = ()=> {
 
     const form = useRef();
-
+    
     const sendEmail = (event) =>{
         event.preventDefault();
 
