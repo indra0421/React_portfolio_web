@@ -18,6 +18,8 @@ function Footer() {
                 <Github color='white' size ='3rem'/>
             </div>
 
+          
+
         </div>
     </div>
   )
