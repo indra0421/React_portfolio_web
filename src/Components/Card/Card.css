@@ -7,16 +7,18 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-   
+    width: 10rem;
     text-align: center;
     background: rgba(227, 224, 224, 0.26);
     border: 7px solid orange;
     box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
     border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
 }
 .card span:nth-child(3){
     color: rgb(87, 87, 87);
     font-size: 16px;
+    
 }
 .card > img{
     transform: scale(0.6);
@@ -37,4 +39,10 @@
 }
 .c_button:hover{
     transform: scale(1.02);
+}
+
+@media screen and (max-width:480px) {
+   .card{
+    width: auto;
+   }  
 }

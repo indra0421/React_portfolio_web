@@ -75,3 +75,29 @@
     left: 18rem;
     top: 8rem;
 }
+
+@media screen and (max-width:480px) {
+  .works{
+    flex-direction: column;
+    height: 43rem;
+    padding: 0;
+    gap: 3rem;
+  }  
+  .m_right{
+    display: flex;    
+    align-items: flex-start;
+    justify-content: start;
+    transform: scale(0.7);
+    
+  }
+  .awesome{
+    flex: 0;
+  }
+  .m_mainCircle{
+    position: static;
+
+  }
+  .m_backCircle{
+    left: 7rem!important;
+  }
+}

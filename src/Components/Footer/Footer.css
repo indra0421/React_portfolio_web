@@ -22,3 +22,12 @@
     gap: 2rem;
     cursor: pointer;
 }
+
+@media screen and (max-width:480px) {
+    .f_content{
+        transform: scale(0.6);
+    }
+    .footer{
+        margin-top: 1rem;
+    }
+}
