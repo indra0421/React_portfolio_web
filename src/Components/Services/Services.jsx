@@ -26,7 +26,7 @@ export const Services = () => {
         <span style={{ color: darkMode ? 'white' : 'black' }}>My Awesome</span>
         <span>Services</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo quos modi error neque porro!</span>
-        <a href="" target="__blank">
+        <a href="">
           <button className="button s_button">Donwload CV</button>
         </a>
 
