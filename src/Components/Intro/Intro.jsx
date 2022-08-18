@@ -30,7 +30,7 @@ export const Intro = () => {
                 <div className="i_name">
                     <span style={{ color: darkMode ? 'white' : 'black' }}>Hi! I Am</span>
                     <span>Indranil Naskar</span>
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo alias esse neque iusto veritatis iste corporis beatae vero magnam vitae. Non praesentium eius optio eveniet!</span>
+                    <span>Currently i am persuing Btech at Netaji Subhash Engineering College in Information Technology.</span>
                 </div>
                 <button className="i_button">Hire Me</button>
 
@@ -75,7 +75,7 @@ export const Intro = () => {
                     transition={transition}
                     className='floating_div'
                     style={{ top: '20rem', left: '0rem' }}>
-                    <FloatingDiv image={thumbup} tex1="Best Design" tex2="Award" />
+                    <FloatingDiv image={thumbup} tex1="Competitive" tex2="Programer" />
                 </motion.div>
                 {/* blur divs */}
                 <div className='blur' style={{ background: "rgb(238 210 255)" }}></div>

@@ -8,6 +8,10 @@ import ecommerce from '../../img/ecommerce.png'
 import hoc from '../../img/hoc.png'
 import musicapp from '../../img/musicapp.png'
 
+import gym from '../../img/gym.png'
+import todoapp from '../../img/todoapp.png'
+import netflix_clone from '../../img/netflix_clone.png'
+
 import {themeContext} from '../../Context'
 import { useContext } from 'react'
 
@@ -26,22 +30,40 @@ export const Portfolio = () => {
         {/* slider */}
         <Swiper 
         spaceBetween={30}
-        slidesPerView={3}
+        
+        breakpoints = {{
+            
+          480 : {
+            slidesPerView : 3
+          },
+          0 : {
+            slidesPerView : 1
+          }
+        }}       
         
         grabCursor = {true}
         className = 'portfolio-slider'>
+           <SwiperSlide className='swiper-slide'>
+             <a href="https://indra0421.github.io/netflix_clone" target='__blank'><img src={netflix_clone} alt="" /></a>
+           </SwiperSlide>
+           <SwiperSlide className='swiper-slide'>
+             <a href=""><img src={gym} alt="" /></a>
+           </SwiperSlide>
+           <SwiperSlide className='swiper-slide'>
+             <a href="https://indra0421.github.io/simple_todo_app" target="__blank"><img src={todoapp} alt="" /></a>
+           </SwiperSlide>
            
            <SwiperSlide className='swiper-slide'>
-             <img src={siderbar} alt="" />
+             <a href=""><img src={siderbar} alt="" /></a>
            </SwiperSlide>  
            <SwiperSlide className='swiper-slide'>
-             <img src={musicapp} alt="" />
+             <a href=""><img src={musicapp} alt="" /></a>
            </SwiperSlide>  
            <SwiperSlide className='swiper-slide'>
-             <img src={hoc} alt="" />
+             <a href=""><img src={hoc} alt="" /></a>
            </SwiperSlide>  
            <SwiperSlide className='swiper-slide'>
-             <img src={ecommerce} alt="" />
+             <a href=""><img src={ecommerce} alt="" /></a>
            </SwiperSlide>  
         </Swiper>
     </div>
