@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/React_portfolio_web/static/css/main.e68a4de1.css",
-    "main.js": "/React_portfolio_web/static/js/main.3f1cc9bb.js",
+    "main.css": "/React_portfolio_web/static/css/main.47d23900.css",
+    "main.js": "/React_portfolio_web/static/js/main.99096928.js",
+    "static/media/netflix_clone.png": "/React_portfolio_web/static/media/netflix_clone.faffa22e40c3f6cb767a.png",
+    "static/media/gym.png": "/React_portfolio_web/static/media/gym.83659ee2cd2c7961ef20.png",
     "static/media/ecommerce.png": "/React_portfolio_web/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/sidebar.png": "/React_portfolio_web/static/media/sidebar.b2225070b8adae68d063.png",
     "static/media/musicapp.png": "/React_portfolio_web/static/media/musicapp.f1c301f91904ef5f9249.png",
     "static/media/Resume.pdf": "/React_portfolio_web/static/media/Resume.4f7082b55dfd7be44a71.pdf",
+    "static/media/todoapp.png": "/React_portfolio_web/static/media/todoapp.57cdda1d462f2f06121d.png",
     "static/media/boy.png": "/React_portfolio_web/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/glassesimoji.png": "/React_portfolio_web/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/leetCode.png": "/React_portfolio_web/static/media/leetCode.c78fc082f2b4c496259f.png",
@@ -18,11 +21,11 @@
     "static/media/Vector2.png": "/React_portfolio_web/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/React_portfolio_web/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/React_portfolio_web/index.html",
-    "main.e68a4de1.css.map": "/React_portfolio_web/static/css/main.e68a4de1.css.map",
-    "main.3f1cc9bb.js.map": "/React_portfolio_web/static/js/main.3f1cc9bb.js.map"
+    "main.47d23900.css.map": "/React_portfolio_web/static/css/main.47d23900.css.map",
+    "main.99096928.js.map": "/React_portfolio_web/static/js/main.99096928.js.map"
   },
   "entrypoints": [
-    "static/css/main.e68a4de1.css",
-    "static/js/main.3f1cc9bb.js"
+    "static/css/main.47d23900.css",
+    "static/js/main.99096928.js"
   ]
 }
