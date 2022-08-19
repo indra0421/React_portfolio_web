@@ -22,9 +22,7 @@
     gap: 2rem;
     cursor: pointer;
 }
-.f_icons>*:hover{
-  
-}
+
 
 @media screen and (max-width:480px) {
     .f_content{

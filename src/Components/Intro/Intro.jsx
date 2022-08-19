@@ -6,7 +6,11 @@ import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
 import boy from '../../img/boy.png'
-import leetcode from '../../img/leetCode.png'
+
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+
 
 import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
@@ -32,17 +36,17 @@ export const Intro = () => {
                     <span>Indranil Naskar</span>
                     <span>Currently i am persuing Btech at Netaji Subhash Engineering College in Information Technology.</span>
                 </div>
-                <button className="i_button">Hire Me</button>
+                <button className="i_button">About Me</button>
 
                 <div className="i_icons">
                     <a href='https://github.com/indra0421'>
-                        <img src={Github} alt="" />
+                        <GitHubIcon/>
                     </a>
                     <a href=''>
-                        <img src={Instagram} alt="" />
+                        <InstagramIcon/>
                     </a>
                     <a href='https://www.linkedin.com/in/indranil-naskar-296a94203'>
-                        <img src={Linkedin} alt="" />
+                        <LinkedInIcon/>
                     </a>
                 </div>
 

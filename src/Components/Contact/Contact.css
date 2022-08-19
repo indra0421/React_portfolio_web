@@ -26,7 +26,7 @@
 
 .user{
     width: 18rem;
-    border: 3px solid orange;
+    border: 3px solid rgb(218,165,32);
     border-radius: 6px;
     height: 12vh;
     outline: none;
@@ -58,14 +58,14 @@ textarea{
     color: white;
     font-size: 16px;
     padding: 11px 26px 11px 26px;
-    background: linear-gradient(180deg,#fdc50f 26.71%,#fb982f 99.36%);
+    background: linear-gradient(180deg,#fdc50f 26.71%,rgb(218,165,32) 99.36%);
     box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
 }
 .f_button:hover{
     cursor: pointer;
     background: white;
     color: var(--orange);
-    border: 1px solid orange;
+    border: 1px solid rgb(218,165,32);
 }
 
 @media screen and (max-width:480px) {

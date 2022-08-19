@@ -18,7 +18,7 @@
     align-self: start;
 }
 .t_heading span:nth-of-type(2){
-    color:orange;
+    color:rgb(218,165,32);
 }
 .t_blur1{
     left: 38rem;
