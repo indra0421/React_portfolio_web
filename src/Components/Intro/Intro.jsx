@@ -36,7 +36,7 @@ export const Intro = () => {
                     <span>Indranil Naskar</span>
                     <span>Currently i am persuing Btech at Netaji Subhash Engineering College in Information Technology.</span>
                 </div>
-                <button className="i_button">About Me</button>
+                <button className="i_button button">About Me</button>
 
                 <div className="i_icons">
                     <a href='https://github.com/indra0421'>
